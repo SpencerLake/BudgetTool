@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <main>
+        <div id="div-addBar">
+            <h1 class="sectionTitle">Add section</h1>
+            <form class="formLay">
+                <label for="itemTitle">Item</label>
+                <input type="text" id="itemTitle" placeholder="What are you adding?">
+                <br>
+                <label for="itemCost">Cost</label>
+                <input type="number" id="itemCost" placeholder="$$$">
+                <br>
+                <label for="itemDate">Due Day</label>
+                <input type="number" id="itemDate" placeholder="Day of Month">
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div id="div-budgetItems">
+            <h1>Items Section</h1>
+            <div id="itemHold">
+                <!-- Delete this after editing -->
+                <div class="itemBlock">
+                    <div class="blockSection">
+                        <h5>Expense</h5>
+                        <h3 class="blockTitle">Rent</h3>
+                    </div>
+                    <div class="blockSection">
+                        <h5>Cost</h5>
+                        <p class="blockCost">1450</p>
+                    </div>
+                    <div class="blockSection">
+                        <h5>Due Date</h5>
+                        <p class="blockDate">1</p>
+                    </div>
+                </div>
+                <div class="itemBlock">
+                    <div class="blockSection">
+                        <h5>Expense</h5>
+                        <h3 class="blockTitle">Car Payment</h3>
+                    </div>
+                    <div class="blockSection">
+                        <h5>Cost</h5>
+                        <p class="blockCost">230</p>
+                    </div>
+                    <div class="blockSection">
+                        <h5>Due Date</h5>
+                        <p class="blockDate">17</p>
+                    </div>
+                </div>
+                <!-- End of delete -->
+            </div>
+        </div>
+        <div id="div-reports">
+            <h1>Reports Section</h1>
+            <div id="reportHold">
+                <!-- Delete this after editing -->
+                <div class="itemBlock">
+                    <div class="reportBlock" id="reportIncome">
+                        <h4>Monthly Income</h4>
+                        <p class="reportValue">3200</p>
+                    </div>
+                    <div class="reportBlock" id="reportExpenses">
+                        <h4>Monthly Expenses</h4>
+                        <p class="reportValue">2800</p>
+                    </div>
+                    <div class="reportBlock" id="reportDisposable">
+                        <h4>Monthly Disposable Income</h4>
+                        <p class="reportValue">400</p>
+                    </div>
+                </div>
+                <!-- End of delete -->
+            </div>
+        </div>
+    </main>
+</body>
+</html>
